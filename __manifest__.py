@@ -6,10 +6,13 @@
     'category': 'Hospital',
     'summary': 'Hospital Management System',
     'sequence': -100,
-    'description': """Hospital Managemetn System""",
+    'description': """Hospital Management System""",
     'category': '',
     'depends': [],
-    'data': [],
+    'data': [
+        'views/menu.xml',
+        'views/patient_views.xml'
+    ],
     'demo': [],
     'author': 'Muhammed Aba',
     'installable': True,
