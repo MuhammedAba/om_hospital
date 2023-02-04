@@ -12,7 +12,8 @@
     'data': [
         "security/ir.model.access.csv",
         'views/menu.xml',
-        'views/patient_views.xml'
+        'views/patient_views.xml',
+        'views/female_patient_view.xml',
     ],
     'demo': [],
     'author': 'Muhammed Aba',

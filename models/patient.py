@@ -8,4 +8,5 @@ class HospitalPatient(models.Model):
     age = fields.Integer(string="Age")
     gender = fields.Selection([("male", "Male"), ("female", "Female")], string="Gender")
     city = fields.Char(string="City:")
+    active = fields.Boolean(string="Active", default=True)
 
